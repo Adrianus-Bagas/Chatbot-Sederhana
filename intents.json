@@ -1,0 +1,35 @@
+{"intents": [
+    {"tag": "pembukaan",
+     "patterns": ["Hai", "Halo", "Tes", "Cek"],
+     "responses": ["Hai, ada yang bisa saya bantu ?", "Hai, apa kabar ?", "Selamat datang di layanan otomatis warung nasi Mang Iwan"]
+    },
+    {"tag": "penutup",
+     "patterns": ["Dadah", "Sampai jumpa", "Sampai ketemu lagi"],
+     "responses": ["Sampai nanti", "Semoga hari ini adalah harimu", "Sampai ketemu di lain waktu"]
+    },
+    {"tag": "terimakasih",
+     "patterns": ["Terimakasih", "Hatur nuhun", "Terimakasih atas bantuannya"],
+     "responses": ["Sami-sami", "Senang bisa membantu", "Sama-sama", "Terimakasih kembali"]
+    },
+    {"tag": "tentang",
+     "patterns": ["Kamu siapa ?", "Dengan siapa saya berbicara ?"],
+     "responses": ["Aku Dadang, asisten Mang Iwan dalam bentuk komputer", "Aku Dadang selalu siap melayani pelanggan"]
+    },
+    {"tag": "makan",
+    "patterns": ["Hari ini ada menu apa saja ?", "Apa menu hari ini ?", "Apakah ada telur dadar ?"],
+    "responses": ["Menu makan hari ini adalah sayur kacang panjang, pindang kerang, tempe mendoan, dan telur dadar"]
+    },
+    {"tag": "minum",
+    "patterns": ["Aku haus", "Ada minum apa aja ?", "Mau minum", "Minum"],
+    "responses": ["Menu minuman hari ini ada es teh, es jeruk, teh panas, jeruk panas, dan tentu saja air putih"]
+    },
+    {"tag": "bayar",
+    "patterns": ["Bayarnya gimana ?", "Sudah selesai", "Mau bayar"],
+    "responses": ["Untuk pembayaran akan dibantu oleh asisten komputer Mang Iwan yang lain yaitu Asep, silahkan ketik 'Asep' untuk pembayaran"]
+    },
+    {"tag": "asep",
+    "patterns": ["Asep"],
+    "responses": ["Ini tagihan hari ini, untuk pembayaran bisa melalui rekening dan e-money yang tertera pada beranda. Terimakasih"]
+    }
+]
+}
